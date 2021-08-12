@@ -1,0 +1,14 @@
+.story-header {
+  margin-bottom: 3rem;
+}
+.story-body > p:first-of-type {
+  text-indent: 1em;
+}
+.story-body > p:last-of-type::after {
+  content: " \2726";
+  font-size: 0.75em;
+  vertical-align: middle;
+  text-indent: 1em;
+  color: var(--col-a-light);
+  text-shadow: 0.125rem 0.125rem 0 var(--col-a-darker);
+}
